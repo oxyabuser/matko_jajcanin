@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: #cb7cf2;
+}
+
+h1 {
+    background-color: #000000; 
+    color: #ffffff;            
+}
+
+
+ol, ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.orbitron-p {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dropbtn {
+    background-color: #c138f2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    text-decoration: none;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    align-content: center;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: inline-table;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Orbitron", sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropbtn {
+    background-color: #640487;
+  }
+
+.slike-str2 {
+    width: 512px;
+    height: 512px;
+}
